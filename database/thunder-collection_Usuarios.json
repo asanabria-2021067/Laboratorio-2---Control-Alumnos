@@ -1,0 +1,242 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Usuarios",
+    "dateExported": "2023-02-23T07:11:38.245Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9e0b387b-4201-4bda-9b4f-54475ae462e8",
+            "colId": "03e63058-60aa-458d-866f-e035d997daa8",
+            "containerId": "",
+            "name": "localhost:8080/api/usuarios/agregar",
+            "url": "localhost:8080/api/usuarios/agregar/estudiante",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-02-16T04:51:16.000Z",
+            "modified": "2023-02-23T07:06:00.149Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Angel Sanabria\",\n  \"correo\": \"asanabria2222222@gmail.com\",\n  \"password\": \"123456\",\n  \"cursos\":[\"63f6bb6b06a22db56a04b887\", \"63f6bb6a06a22db56a04b883\", \"63f6bb6a06a22db56a04b87b\"]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c73d7885-9f14-420d-9370-6f582c27f0f2",
+            "colId": "03e63058-60aa-458d-866f-e035d997daa8",
+            "containerId": "",
+            "name": "get",
+            "url": "localhost:8080/api/usuarios/mostrar/estudiante",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-02-16T04:51:27.860Z",
+            "modified": "2023-02-23T05:31:15.336Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fbee2ad3-0f93-4f00-8f13-d54afdf7d046",
+            "colId": "03e63058-60aa-458d-866f-e035d997daa8",
+            "containerId": "",
+            "name": "login",
+            "url": "localhost:8080/api/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-02-16T04:51:54.579Z",
+            "modified": "2023-02-23T01:02:30.631Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\": \"jperez2021@gmail.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6525a410-50e4-4aea-bd10-a08c4338cf2d",
+            "colId": "03e63058-60aa-458d-866f-e035d997daa8",
+            "containerId": "",
+            "name": "delete",
+            "url": "localhost:8080/api/usuarios/eliminar/estudiante/63f6dbb8df0a77fb7092408a",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-02-16T04:53:40.970Z",
+            "modified": "2023-02-23T05:05:58.728Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2Y2YmIxYjA2YTIyZGI1NmEwNGI4NjYiLCJpYXQiOjE2NzcxMjg3NTAsImV4cCI6MTY3NzEzMjM1MH0.fPGdc-QHq1X0DuHMlRGEKW8nQZfwPLKLBQh2eAAPPr8"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d5520a55-172f-4ff8-8e86-d20214c90a45",
+            "colId": "03e63058-60aa-458d-866f-e035d997daa8",
+            "containerId": "",
+            "name": "login",
+            "url": "localhost:8080/api/auth/login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-02-20T06:30:28.205Z",
+            "modified": "2023-02-20T07:16:45.907Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\": \"jperez@gmail.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "498eb2cb-7b28-47a5-a57e-c0fb668857c5",
+            "colId": "03e63058-60aa-458d-866f-e035d997daa8",
+            "containerId": "",
+            "name": "cursos post",
+            "url": "localhost:8080/api/cursos/agregar/",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-02-20T06:31:38.146Z",
+            "modified": "2023-02-23T02:06:09.667Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2Y2YmIxYjA2YTIyZGI1NmEwNGI4NjYiLCJpYXQiOjE2NzcxMTc5NTAsImV4cCI6MTY3NzEyMTU1MH0.MW-vmG8mRoamnl8JdsfVCJF5zJwr8LynyeJy2DMCqe4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"FISICA\",\n  \"capacidadMinima\": 25\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2443c87e-01c1-4f4b-9896-ccbcedb8efed",
+            "colId": "03e63058-60aa-458d-866f-e035d997daa8",
+            "containerId": "",
+            "name": "GET CURSO",
+            "url": "localhost:8080/api/cursos/mostrar/",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-02-20T06:47:51.693Z",
+            "modified": "2023-02-20T06:47:57.272Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "12f5a740-e8e1-4df2-9a1d-d83e455d3325",
+            "colId": "03e63058-60aa-458d-866f-e035d997daa8",
+            "containerId": "",
+            "name": "curso put",
+            "url": "localhost:8080/api/cursos/editar/63f6bb6b06a22db56a04b887",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2023-02-23T01:33:14.430Z",
+            "modified": "2023-02-23T07:06:33.648Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2YzMTM3NzAwYjU5NDAyNDcxNGFiYjAiLCJpYXQiOjE2NzcxMzU5ODUsImV4cCI6MTY3NzEzOTU4NX0.6gNbS1EFA13tkRL-JnbxkF94Asq_5FSjgxPm0hQmrC0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"MATEMATICA II\",\n  \"capacidadMinima\": 25\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ebbba919-79f9-4af7-aac7-8709e1282826",
+            "colId": "03e63058-60aa-458d-866f-e035d997daa8",
+            "containerId": "",
+            "name": "editar profesor",
+            "url": "localhost:8080/api/usuarios/editar/profesor/63f6bb1b06a22db56a04b866",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2023-02-23T01:46:27.459Z",
+            "modified": "2023-02-23T07:04:33.376Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2YzMTM3NzAwYjU5NDAyNDcxNGFiYjAiLCJpYXQiOjE2NzcxMzM4NjIsImV4cCI6MTY3NzEzNzQ2Mn0.7zcdy3hUp6MOux26AQ10Ld51lvFc1iCw5UOzyKKPv3M"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Juanito\",\n  \"correo\": \"jpersez20221@gmail.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "473a591d-62cf-48d6-9d3c-6c129af4baa4",
+            "colId": "03e63058-60aa-458d-866f-e035d997daa8",
+            "containerId": "",
+            "name": "asignar",
+            "url": "localhost:8080/api/usuarios/asignar/63ef2160a4c51701cb41e5bc",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2023-02-23T03:14:43.997Z",
+            "modified": "2023-02-23T05:49:35.131Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"cursos\": [\"63f6bb3106a22db56a04b86b\",\"63f6bcbfeeff2e86c60966f7\",\"63f6bcbfeeff2e86c60966fc\",\"63f6bb6a06a22db56a04b87f\",\"63f6bb6906a22db56a04b873\"]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7770480b-cf3a-4e37-8043-a1fe8ed72dc6",
+            "colId": "03e63058-60aa-458d-866f-e035d997daa8",
+            "containerId": "",
+            "name": "delete cursos",
+            "url": "localhost:8080/api/cursos/eliminar/63f6bb6b06a22db56a04b887",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2023-02-23T06:05:21.509Z",
+            "modified": "2023-02-23T07:07:30.553Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2YzMTM3NzAwYjU5NDAyNDcxNGFiYjAiLCJpYXQiOjE2NzcxMzU5ODUsImV4cCI6MTY3NzEzOTU4NX0.6gNbS1EFA13tkRL-JnbxkF94Asq_5FSjgxPm0hQmrC0"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "18d9ba99-eadf-40e2-9c45-06212b9059e8",
+            "colId": "03e63058-60aa-458d-866f-e035d997daa8",
+            "containerId": "",
+            "name": "mis cursos",
+            "url": "localhost:8080/api/usuarios/miscursos/profesor/63f6bb1b06a22db56a04b866",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2023-02-23T06:30:48.128Z",
+            "modified": "2023-02-23T06:40:48.506Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2YzMTM3NzAwYjU5NDAyNDcxNGFiYjAiLCJpYXQiOjE2NzcxMzM4NjIsImV4cCI6MTY3NzEzNzQ2Mn0.7zcdy3hUp6MOux26AQ10Ld51lvFc1iCw5UOzyKKPv3M"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
