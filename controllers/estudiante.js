@@ -4,6 +4,13 @@ Curso = require('../models/curso');
 //Importación del modelo
 const Estudiante = require('../models/usuario');
 
+const getMisCursos =  async (req = request, res = response) => {
+    const { id } = req.params;
+    const cursosAlumno = await Estudiante.findById(id) 
+    .populate('cursos','nombre')
+    res.status(201).json( cursosAlumno );
+}
+
 const getEstudiantes = async (req = request, res = response) => {
 
     //condiciones del get
@@ -159,7 +166,8 @@ module.exports = {
     postEstudiante,
     putEstudiante,
     deleteEstudiante,
-    asignacionAlumnoCurso
+    asignacionAlumnoCurso,
+    getMisCursos
 }
 
 

@@ -1,7 +1,7 @@
 //Importaciones
 const { Router } = require('express');
 const { check } = require('express-validator');
-const { getEstudiantes, postEstudiante, putEstudiante, deleteEstudiante, asignacionAlumnoCurso } = require('../controllers/estudiante');
+const { getEstudiantes, postEstudiante, putEstudiante, deleteEstudiante, asignacionAlumnoCurso, getMisCursos } = require('../controllers/estudiante');
 const { emailExiste, existeUsuarioPorId } = require('../helpers/db-validators');
 const { validarCampos } = require('../middlewares/validar-campos');
 const { validarJWT } = require('../middlewares/validar-jwt');
@@ -10,6 +10,14 @@ const { tieneRole } = require('../middlewares/validar-roles');
 const router = Router();
 
 router.get('/mostrar/estudiante', getEstudiantes);
+
+router.get('/mostrar/estudiante/miscursos/:id', [
+    validarJWT,
+    tieneRole('ESTUDIANTE_ROLE'),
+    check('id', 'No es un ID válido').isMongoId(),
+    validarCampos
+] ,getMisCursos);
+
 
 router.post('/agregar/estudiante', [
     check('nombre', 'El nombre es obligatorio').not().isEmpty(),
