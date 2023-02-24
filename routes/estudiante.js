@@ -11,10 +11,9 @@ const router = Router();
 
 router.get('/mostrar/estudiante', getEstudiantes);
 
-router.get('/mostrar/estudiante/miscursos/:id', [
+router.get('/mostrar/estudiante/miscursos', [
     validarJWT,
     tieneRole('ESTUDIANTE_ROLE'),
-    check('id', 'No es un ID válido').isMongoId(),
     validarCampos
 ] ,getMisCursos);
 

@@ -5,10 +5,13 @@ Curso = require('../models/curso');
 const Estudiante = require('../models/usuario');
 
 const getMisCursos =  async (req = request, res = response) => {
-    const { id } = req.params;
-    const cursosAlumno = await Estudiante.findById(id) 
-    .populate('cursos','nombre')
-    res.status(201).json( cursosAlumno );
+    const _id = req.usuario.id;
+    const query = { estado: true , _id:_id};
+    const listaEstudiantes = await Promise.all([
+        Estudiante.countDocuments(query),
+        Estudiante.find(query).populate('cursos', 'nombre')
+    ]);
+    res.status(201).json( listaEstudiantes );
 }
 
 const getEstudiantes = async (req = request, res = response) => {

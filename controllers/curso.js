@@ -22,10 +22,13 @@ const getCursos = async (req = request, res = response) => {
 }
 
 const getMisCursos =  async (req = request, res = response) => {
-    const { id } = req.params;
-    const cursosProfesor = await Curso.find({profesor: id}) 
-    .populate('profesor','nombre , correo')
-    res.status(201).json( cursosProfesor );
+    const _id = req.usuario.id;
+    const query = { estado: true , profesor:_id};
+    const listaCursos = await Promise.all([ 
+        Curso.countDocuments(query),
+        Curso.find(query).populate('profesor', 'nombre')
+    ]);
+    res.status(201).json( listaCursos );
 }
 
 const getCursosbyId = async (req = request, res = response) => {

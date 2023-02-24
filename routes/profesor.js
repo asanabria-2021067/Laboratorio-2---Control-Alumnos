@@ -41,7 +41,7 @@ router.delete('/eliminar/profesor/:id', [
     validarCampos
 ] ,deleteProfesor);
 
-router.get('/miscursos/profesor/:id', [
+router.get('/miscursos/profesor/', [
     validarJWT,
     //esAdminRole,
     tieneRole('PROFESOR_ROLE'),
