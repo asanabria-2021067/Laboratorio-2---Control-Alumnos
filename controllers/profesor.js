@@ -46,7 +46,7 @@ const putProfesor = async (req = request, res = response) => {
 
     //Req.params sirve para traer parametros de las rutas
     const { id } = req.params;
-    const { _id, asignado, ...resto } = req.body;
+    const { _id, estado, ...resto } = req.body;
 
     //Si la password existe o viene en el req.body, la encripta
     if ( resto.password ) {

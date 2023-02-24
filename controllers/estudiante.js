@@ -59,7 +59,7 @@ const putEstudiante = async (req = request, res = response) => {
 
     //Req.params sirve para traer parametros de las rutas
     const { id } = req.params;
-    const { _id, asignado, ...resto } = req.body;
+    const { _id, estado, ...resto } = req.body;
 
     //Si la password existe o viene en el req.body, la encripta
     if (resto.password) {
@@ -117,7 +117,7 @@ const deleteEstudiante = async (req = request, res = response) => {
 const asignacionAlumnoCurso = async (req = request, res = response) => {
     //Req.params sirve para traer parametros de las rutas
     const { id } = req.params;
-    const { _id, asignado, password, correo, ...resto } = req.body;
+    const { _id, estado, password, correo, ...resto } = req.body;
     //-- Validacion para que no se repitan los cursos 
     if(resto.cursos.length <=3){
     let valorRepetido;
