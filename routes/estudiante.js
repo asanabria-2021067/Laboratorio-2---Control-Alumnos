@@ -22,6 +22,7 @@ router.post('/agregar/estudiante', [
 ] ,postEstudiante);
 
 router.put('/editar/estudiante/:id', [
+    tieneRole('ESTUDIANTE_ROLE'),
     check('id', 'No es un ID válido').isMongoId(),
     check('cursos', 'El limite cursos es de 3').isLength( { min: 0 } , { max: 3 } ),
     check('id').custom( existeUsuarioPorId ),
@@ -40,7 +41,8 @@ router.delete('/eliminar/estudiante/:id', [
 
 
 router.put('/asignar/:id',[
-    // validarJWT,
+    validarJWT,
+    tieneRole('ESTUDIANTE_ROLE'),
     check('id', 'No es un ID válido').isMongoId(),
     // check('id').custom( existeCursoPorId ),
     check('cursos', 'El limite cursos es de 3').isLength( { min: 0 } , { max: 3 } ),

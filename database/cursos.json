@@ -1,0 +1,463 @@
+[{
+  "_id": {
+    "$oid": "63f6bb6a06a22db56a04b87b"
+  },
+  "nombre": "FISICA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bb6a06a22db56a04b883"
+  },
+  "nombre": "FISICA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bb6b06a22db56a04b88b"
+  },
+  "nombre": "FISICA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bb6b06a22db56a04b88f"
+  },
+  "nombre": "FISICA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bb6b06a22db56a04b893"
+  },
+  "nombre": "FISICA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bb6b06a22db56a04b897"
+  },
+  "nombre": "FISICA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcbdeeff2e86c60966de"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcbeeeff2e86c60966e3"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcbfeeff2e86c60966e8"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcbfeeff2e86c60966ed"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcbfeeff2e86c60966f2"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcbfeeff2e86c60966f7"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcbfeeff2e86c60966fc"
+  },
+  "nombre": "aa",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcc0eeff2e86c6096701"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcc0eeff2e86c6096706"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcc0eeff2e86c609670b"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcc0eeff2e86c6096710"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcc0eeff2e86c6096715"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bcc1eeff2e86c609671a"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bd6eb60bbb371fee385d"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bdd7373fd783965c5521"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bdd9373fd783965c5526"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bdf2373fd783965c552d"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6be743f62e73f1b2be34d"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beea8080ef60fa211820"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beeb8080ef60fa211825"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beeb8080ef60fa21182a"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beec8080ef60fa21182f"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beec8080ef60fa211834"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beec8080ef60fa211839"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beed8080ef60fa21183e"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beed8080ef60fa211843"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beed8080ef60fa211848"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beee8080ef60fa21184d"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beee8080ef60fa211852"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beee8080ef60fa211857"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beee8080ef60fa21185c"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beef8080ef60fa211861"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beef8080ef60fa211866"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6beef8080ef60fa21186b"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6bef08080ef60fa211870"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6c2648080ef60fa211875"
+  },
+  "nombre": "AA",
+  "capacidadMinima": 25,
+  "profesor": {
+    "$oid": "63f6bb1b06a22db56a04b866"
+  },
+  "estado": true,
+  "__v": 0
+}]

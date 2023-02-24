@@ -41,7 +41,7 @@ const existeUsuarioPorId = async(id1) => {
     //Verificar si el ID existe
     const existeUser = await Usuario.findById(id1);
     
-    if ( !existeUser ) {
+    if ( existeUser ) {
         throw new Error(`El id ${ id1 } no existe en la DB`);
     }
 

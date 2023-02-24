@@ -26,6 +26,7 @@ const UsuarioSchema = Schema({
     cursos:[{
         type: Schema.Types.ObjectId,
         ref: 'Curso',
+        default: ["0"]
     }],
 });
 

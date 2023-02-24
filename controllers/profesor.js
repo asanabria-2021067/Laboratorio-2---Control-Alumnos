@@ -6,7 +6,7 @@ const Profesor = require('../models/usuario');
 const getProfesores = async (req = request, res = response) => {
 
     //condiciones del get
-    const query = { estado: true };
+    const query = { estado: true, rol: "PROFESOR_ROLE"};
 
     const listaProfesores = await Promise.all([
         Profesor.countDocuments(query),

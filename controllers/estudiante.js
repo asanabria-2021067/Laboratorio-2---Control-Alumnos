@@ -54,16 +54,6 @@ const postEstudiante = async (req = request, res = response) => {
         res.status(201).json('no puede tener mas de 3 cursos');
     }
 }
-    //Validar que los elementos del arreglo sean objectId
-//     for (let i = 0; i < resto.cursos.length; i++) {
-//         if (ObjectId.isValid(resto.cursos[i])) {
-
-//         } else {
-//             res.status(201).json(`EL ELEMENTO ${resto.cursos[i]} NO es un ObjectId válido de MongoDB.`);
-//         }
-//     }
-// }
-
 
 const putEstudiante = async (req = request, res = response) => {
 
@@ -129,7 +119,7 @@ const asignacionAlumnoCurso = async (req = request, res = response) => {
     const { id } = req.params;
     const { _id, asignado, password, correo, ...resto } = req.body;
     //-- Validacion para que no se repitan los cursos 
-    if(cursos.length <=3){
+    if(resto.cursos.length <=3){
     let valorRepetido;
     for (let i = 0; i < resto.cursos.length; i++) {
         for (let j = i + 1; j < resto.cursos.length; j++) {
