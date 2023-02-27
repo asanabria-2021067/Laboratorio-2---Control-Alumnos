@@ -79,6 +79,7 @@ const putCurso = async (req = request, res = response) => {
 
 }
 
+
 const deleteCurso = async(req = request, res = response) => {
     //Req.params sirve para traer parametros de las rutas
     const { id } = req.params;
